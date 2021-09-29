@@ -8,6 +8,8 @@ spec:
   interval: 1m0s
   path: ./deploy/overlays/dev
   prune: true
+  targetNamespace: apps
+  serviceAccountName: dev-team
   sourceRef:
     kind: GitRepository
     name: podinfo
