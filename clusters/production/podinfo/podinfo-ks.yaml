@@ -6,7 +6,7 @@ metadata:
   namespace: apps
 spec:
   interval: 1m0s
-  path: ./deploy/overlays/dev
+  path: ./kustomize
   prune: true
   targetNamespace: apps
   serviceAccountName: dev-team
