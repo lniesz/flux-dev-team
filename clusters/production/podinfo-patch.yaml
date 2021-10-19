@@ -4,5 +4,4 @@ metadata:
   name: podinfo
   namespace: apps
 spec:
-  path: ./clusters/production
   targetNamespace: apps-prod
