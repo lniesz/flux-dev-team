@@ -8,4 +8,4 @@ spec:
   interval: 1m0s
   ref:
     branch: openshift
-  url: https://github.com/sabre1041/flux-podinfo
+  url: https://github.com/lniesz/flux-podinfo
