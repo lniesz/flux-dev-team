@@ -1,0 +1,11 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: podinfo
+  namespace: flux-apps
+spec:
+  interval: 1m0s
+  ref:
+    branch: openshift-prod
+  url: https://github.com/lniesz/flux-podinfo
