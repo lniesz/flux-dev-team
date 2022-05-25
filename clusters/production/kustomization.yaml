@@ -7,3 +7,4 @@ resources:
   - ../base/podinfo
 patchesStrategicMerge:
   - podinfo-patch.yaml
+  - podinfo-prod-branch.yml
